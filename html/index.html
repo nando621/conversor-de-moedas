@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="/convertor.css/global.css">
+    <link rel="stylesheet" href="/convertor.css/index.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="container">
+            <h1>Conversor de Moedas</h1>
+            <nav>
+                <a href="index.html" class="ativo">🏠 Início</a>
+                <a href="adicionar.html">➕ Adicionar</a>
+                <a href="listar.html">📋 Listar</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo">
+        <section class="card">
+            <h2>Faça sua conversão</h2>
+            <form>
+                <label for="valor">💰 Valor:</label>
+                <input type="number" id="valor" placeholder="Digite o valor">
+
+                <label for="de">De:</label>
+                <select id="de">
+                    <option>Selecione</option>
+                    <option>Dólar (USD)</option>
+                    <option>Real (BRL)</option>
+                    <option>Euro (EUR)</option>
+                </select>
+
+                <label for="para">Para:</label>
+                <select id="para">
+                    <option>Selecione</option>
+                    <option>Dólar (USD)</option>
+                    <option>Real (BRL)</option>
+                    <option>Euro (EUR)</option>
+                </select>
+
+                <button type="button">Converter</button>
+            </form>
+            <p class="resultado">Resultado: —</p>
+        </section>
+    </main>
+
+</body>
+</html>
