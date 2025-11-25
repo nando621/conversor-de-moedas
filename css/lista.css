@@ -1,8 +1,8 @@
 :root {
-    --cor1: #38b000;
-    --cor2: #70e000;
+    --cor1: #ff6b35;
+    --cor2: #ff924c;
 
-    --fundo: #f7fff3;
+    --fundo: #fff5ef;
     --texto: #222;
 }
 
@@ -49,8 +49,8 @@ body {
     background: white;
     padding: 25px;
     border-radius: 8px;
-    width: 350px;
-    border: 1px solid #e5e5e5;
+    width: 380px;
+    border: 1px solid #eee;
 }
 
 .card h2 {
@@ -59,38 +59,21 @@ body {
     color: var(--cor1);
 }
 
-/* Form */
-label {
-    font-size: 14px;
-    font-weight: bold;
-    margin-bottom: 4px;
-    display: block;
+/* Lista */
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-input {
-    width: 100%;
+ul li {
     padding: 10px;
-    margin-bottom: 15px;
+    background: #ffe9df;
+    margin-bottom: 8px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border-left: 4px solid var(--cor1);
+    font-size: 15px;
 }
 
-input:focus {
-    border-color: var(--cor1);
-}
-
-/* Botão */
-button {
-    width: 100%;
-    padding: 10px;
-    background: var(--cor1);
-    color: white;
-    border: none;
-    border-radius: 6px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button:hover {
-    background: var(--cor2);
+ul li:hover {
+    background: #ffd9c9;
 }
